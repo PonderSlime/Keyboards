@@ -3475,6 +3475,12 @@
 		(uuid "afcf9b8e-1c03-4546-9937-67d51725b548")
 	)
 	(junction
+		(at 721.36 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09d4791-45ed-4d9a-976c-5887cab97d90")
+	)
+	(junction
 		(at 943.61 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3557,12 +3563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbb41f69-31b4-4924-a54b-5267265681d7")
-	)
-	(junction
-		(at 1045.21 276.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bddb379e-ce6d-49e6-8d61-878403b80132")
 	)
 	(junction
 		(at 1043.94 260.35)
@@ -3751,12 +3751,6 @@
 		(uuid "e0d3a3ea-89b4-4a5b-afe2-ea286e7d2e57")
 	)
 	(junction
-		(at 1070.61 292.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e295a9d8-6bcc-4a38-91f8-325ccdaa5f39")
-	)
-	(junction
 		(at 207.01 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3875,8 +3869,8 @@
 		(uuid "30e78b29-5533-4cf0-ba90-41a396bbae60")
 	)
 	(no_connect
-		(at 1078.23 284.48)
-		(uuid "5519d5d2-ee5a-4342-b8a5-6bc0c6fbf8ce")
+		(at 1052.83 284.48)
+		(uuid "8192f837-fb0e-4fc6-8638-10b2269015d4")
 	)
 	(wire
 		(pts
@@ -4270,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 721.36 243.84) (xy 727.71 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab95df4-e5cc-46a8-96b7-e1cd41915286")
+	)
+	(wire
+		(pts
 			(xy 412.75 166.37) (xy 438.15 166.37)
 		)
 		(stroke
@@ -4457,16 +4461,6 @@
 			(type default)
 		)
 		(uuid "2874c161-6d25-4a0c-b9b7-f9c0fc7abd25")
-	)
-	(wire
-		(pts
-			(xy 1052.83 284.48) (xy 1062.99 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "288d5ce5-007a-4591-9476-c269eea87972")
 	)
 	(wire
 		(pts
@@ -5640,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 721.36 269.24) (xy 721.36 218.44)
+			(xy 721.36 269.24) (xy 721.36 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6570,6 +6564,16 @@
 	)
 	(wire
 		(pts
+			(xy 721.36 243.84) (xy 721.36 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b447dd9b-19dc-4eb8-b03a-4085047c6eba")
+	)
+	(wire
+		(pts
 			(xy 910.59 224.79) (xy 910.59 210.82)
 		)
 		(stroke
@@ -7150,16 +7154,6 @@
 	)
 	(wire
 		(pts
-			(xy 1045.21 276.86) (xy 1070.61 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53d5e2d-b24c-46e6-9e6b-cbc561184b00")
-	)
-	(wire
-		(pts
 			(xy 165.1 182.88) (xy 165.1 208.28)
 		)
 		(stroke
@@ -7167,16 +7161,6 @@
 			(type default)
 		)
 		(uuid "d5e5a4b5-c542-483f-a8b8-7592b5341775")
-	)
-	(wire
-		(pts
-			(xy 1045.21 292.1) (xy 1070.61 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f97ee5-2b31-489f-b756-ff63ba38181c")
 	)
 	(wire
 		(pts
@@ -10686,72 +10670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 1070.61 292.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10ee75af-47e2-40c9-8fa1-cceea71ab141")
-		(property "Reference" "#PWR7"
-			(at 1070.61 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 1070.61 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 1070.61 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 1070.61 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 1070.61 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f28582b8-91f6-4a1d-b18a-65355ec3b9f6")
-		)
-		(instances
-			(project "splitbk"
-				(path "/8fd27b71-1cc7-4b76-b115-4e496c9b4baa"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CherryMX:CherryMX")
 		(at 100.33 182.88 0)
 		(unit 1)
@@ -11195,6 +11113,72 @@
 			(project "splitbk"
 				(path "/8fd27b71-1cc7-4b76-b115-4e496c9b4baa"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1045.21 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "178b9bd0-1a91-44f4-be22-68a6b94d716e")
+		(property "Reference" "#PWR7"
+			(at 1045.21 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1045.21 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1045.21 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1045.21 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 1045.21 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d1d8fd-f12f-4933-8a75-2fb1c3430252")
+		)
+		(instances
+			(project "splitbk"
+				(path "/8fd27b71-1cc7-4b76-b115-4e496c9b4baa"
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -20525,82 +20509,6 @@
 			(project "splitbk"
 				(path "/8fd27b71-1cc7-4b76-b115-4e496c9b4baa"
 					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 1070.61 284.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af366e18-31c6-40cc-a291-a74ba89771bc")
-		(property "Reference" "D65.5"
-			(at 1082.04 278.1614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 1082.04 280.7014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SK6812-MINI-E"
-			(at 1071.88 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 1073.15 294.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 1070.61 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b5d512a-f4ff-49ac-a2fd-9d8a247b6685")
-		)
-		(pin "1"
-			(uuid "e0a530a6-7391-46ac-848c-0257662baf18")
-		)
-		(pin "3"
-			(uuid "ddfcb92f-05a9-4dbc-ad25-f4b9ab367660")
-		)
-		(pin "4"
-			(uuid "2060b2bd-90bf-4011-ae91-0d421141d3db")
-		)
-		(instances
-			(project "splitbk"
-				(path "/8fd27b71-1cc7-4b76-b115-4e496c9b4baa"
-					(reference "D65.5")
 					(unit 1)
 				)
 			)
