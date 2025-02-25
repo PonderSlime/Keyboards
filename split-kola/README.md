@@ -52,6 +52,7 @@ When designing the case, I was able to learn how to use onshape a little bit bet
 The most frustrating part of the entire project was when I experimented with freerouting in KiCAD. I was forced to reroute everything from scratch!
 
 ### Images
+![render](https://github.com/user-attachments/assets/342d228d-ea72-49b9-baa3-6384c8f3f0f0)
 
 ![https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/schematic_01.png](https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/schematic_01.png)
 
