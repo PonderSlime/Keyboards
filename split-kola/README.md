@@ -44,6 +44,13 @@ But yeah! It should work hopefully!
 - 1 PCB for each side (Two unique total)
 - All 3D printed case parts
 
+## Challenges
+I decided i wanted to make a split keyboard for this, because I have a Bambulab A1 mini at home, and wanted the capability to be able to reprint the case if needed. Also, I decided that I needed both hotswap and RGB keys on it!
+
+When designing the case, I was able to learn how to use onshape a little bit better!
+
+The most frustrating part of the entire project was when I experimented with freerouting in KiCAD. I was forced to reroute everything from scratch!
+
 ### Images
 
 ![https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/schematic_01.png](https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/schematic_01.png)
