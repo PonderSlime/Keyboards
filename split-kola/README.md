@@ -29,3 +29,17 @@ and comment
 ```
 
 But yeah! It should work hopefully!
+
+
+
+## Bill of Materials:
+- 61 Cherry MX Switches
+- 61 Kailh MX Hotswap Sockets
+- 61 1N4148W Diodes (SOD-123 footprint)
+- 2 PJ-320A TRRS Jacks
+- 2 Raspberry Pi Pico footprint boards
+- 63 SK6812Mini-E RGB LEDs
+- 10 M3 Heatset Inserts
+- 10 M3 Screws, 5-7mm length
+- 1 PCB for each side (Two unique total)
+- All 3D printed case parts
