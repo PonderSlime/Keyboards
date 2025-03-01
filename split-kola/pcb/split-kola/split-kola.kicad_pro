@@ -527,7 +527,7 @@
       "specctra_dsn": "",
       "step": "../../cad/reference/split-kola.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../cad/reference/split-kola.wrl"
     },
     "page_layout_descr_file": ""
   },
