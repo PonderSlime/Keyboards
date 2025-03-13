@@ -12,32 +12,53 @@ points:
       columns:
         outer:
           key:
+            column_net: L_C0
+            mirror.column_net: R_C11
             splay:
         pinky:
           key:
+            column_net: L_C1
+            mirror.column_net: R_C10
             splay: -3 
             stagger: 1
             origin: [0, -10]
         ring:
           key:
+            column_net: L_C2
+            mirror.column_net: R_C9
             splay: -4
             origin: [0, -10]
             stagger: 12
         middle:
           key:
+            column_net: L_C3
+            mirror.column_net: R_C8
             stagger: 3
         index:
           key:
+            column_net: L_C4
+            mirror.column_net: R_C7
             stagger: -3
         inner:
           key:
+            column_net: L_C5
+            mirror.column_net: R_C6
             stagger: -3
-          rows.mod.skip: true
+            splay: 4
+            shift: [2]
       rows:
         mod:
+          row_net: L_R0
+          mirror.row_net: R_R0
         bottom:
+          row_net: L_R1
+          mirror.row_net: R_R1
         home:
+          row_net: L_R2
+          mirror.row_net: R_R2
         top:
+          row_net: L_R3
+          mirror.row_net: R_R3
         
     thumbs:
       key:
@@ -49,26 +70,27 @@ points:
       columns:
         layer:
           key:
-            splay: 20
+            column_net: L_C3
+            mirror.column_net: R_C8
         space:
           key:
+            column_net: L_C4
+            mirror.column_net: R_C7
             width: 1kx
             splay: 10
             shift: [2,-2]
-        key:
-          key:
-            width: 1kx
-            splay: -35
-            shift: [3, 9]
+          
       rows:
         cluster:
+          row_net: L_R4
+          mirror.column_net: R_R4
 
   rotate: -20
   
-  mirror: &mirror
+  mirror:
     ref: matrix_pinky_home
     distance: 12kx
-
+    
 outlines:
   raw:
     - what: rectangle
@@ -99,7 +121,7 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: thumbs_space_cluster
           shift: [-0.0px,-0.6py]
-        - ref: thumbs_key_cluster
+        - ref: matrix_inner_mod
           shift: [0.5px,-0.5py]
 
         - ref: matrix_inner_bottom
@@ -141,7 +163,7 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbs_space_cluster
           shift: [-0.0px,-0.6py]
-        - ref: mirror_thumbs_key_cluster
+        - ref: mirror_matrix_inner_mod
           shift: [0.5px,-0.5py]
 
         - ref: mirror_matrix_inner_bottom
@@ -180,7 +202,7 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: thumbs_space_cluster
           shift: [-0.0px,-0.6py]
-        - ref: thumbs_key_cluster
+        - ref: matrix_inner_mod
           shift: [0.5px,-0.5py]
 
         - ref: matrix_inner_bottom
@@ -218,7 +240,7 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbs_space_cluster
           shift: [-0.0px,-0.6py]
-        - ref: mirror_thumbs_key_cluster
+        - ref: mirror_matrix_inner_mod
           shift: [0.5px,-0.5py]
 
         - ref: mirror_matrix_inner_bottom

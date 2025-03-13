@@ -1,9 +1,1157 @@
-[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:65]: Plugin version: 0.13
 [kbplacer_plugin_action.py:66]: Python version: '3.12.8 (main, Nov 10 2011, 15:00:00) [GCC 14.2.0]'
 [kbplacer_plugin_action.py:67]: KiCad version: 8.0.9 with 4.2.2 gtk3 (phoenix) wxWidgets 3.2.6
-[kbplacer_dialog.py:585]: Language: en
-[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/home/micah/Documents/Hack Club/SplitKB/files/layout/layout_numbered.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
-[key_placer.py:361]: Set key 1U distance: 19050000/19050000
-[key_placer.py:116]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
-[key_placer.py:123]: Switches by nets: {}
-[key_placer.py:127]: Diodes by switch: {'SW60': ['D58'], 'SW61': ['D59'], 'SW59': ['D57'], 'SW58': ['D56'], 'SW52': ['D55'], 'SW51': ['D54'], 'SW50': ['D53'], 'SW49': ['D52'], 'SW48': ['D51'], 'SW41': ['D50'], 'SW40': ['D49'], 'SW39': ['D48'], 'SW38': ['D47'], 'SW37': ['D46'], 'SW36': ['D45'], 'SW35': ['D44'], 'SW27': ['D43'], 'SW26': ['D42'], 'SW25': ['D41'], 'SW24': ['D40'], 'SW23': ['D39'], 'SW22': ['D38'], 'SW21': ['D37'], 'SW13': ['D36'], 'SW12': ['D35'], 'SW11': ['D34'], 'SW10': ['D33'], 'SW9': ['D32'], 'SW8': ['D31'], 'SW57': ['D30'], 'SW56': ['D29'], 'SW55': ['D28'], 'SW54': ['D27'], 'SW47': ['D26'], 'SW46': ['D25'], 'SW45': ['D24'], 'SW44': ['D23'], 'SW43': ['D22'], 'SW34': ['D21'], 'SW33': ['D20'], 'SW32': ['D19'], 'SW31': ['D18'], 'SW30': ['D17'], 'SW29': ['D16'], 'SW28': ['D15'], 'SW20': ['D14'], 'SW19': ['D13'], 'SW18': ['D12'], 'SW17': ['D11'], 'SW16': ['D10'], 'SW15': ['D9'], 'SW14': ['D8'], 'SW7': ['D7'], 'SW6': ['D6'], 'SW5': ['D5'], 'SW4': ['D4'], 'SW3': ['D3'], 'SW2': ['D2'], 'SW1': ['D1'], 'SW42': ['D4.5', 'D3.5', 'D2.5', 'D1.5', 'D68.5', 'D61.5', 'D55.5', 'D48.5', 'D41.5', 'D67.5', 'D60.5', 'D54.5', 'D47.5', 'D40.5', 'D66.5', 'D59.5', 'D53.5', 'D46.5', 'D39.5', 'D65.5', 'D58.5', 'D52.5', 'D45.5', 'D38.5', 'D64.5', 'D57.5', 'D51.5', 'D44.5', 'D37.5', 'D56.5', 'D63.5', 'D50.5', 'D43.5', 'D36.5', 'D62.5', 'D49.5', 'D42.5', 'D35.5', 'D34.5', 'D33.5', 'D32.5', 'D31.5', 'D30.5', 'D29.5', 'D28.5', 'D27.5', 'D21.5', 'D26.5', 'D20.5', 'D25.5', 'D19.5', 'D24.5', 'D18.5', 'D23.5', 'D17.5', 'D16.5', 'D22.5', 'D15.5', 'D14.5', 'D13.5', 'D12.5', 'D11.5', 'D10.5', 'D9.5', 'D8.5', 'D7.5', 'D6.5', 'D5.5'], 'SW53': ['D4.5', 'D3.5', 'D2.5', 'D1.5', 'D68.5', 'D61.5', 'D55.5', 'D48.5', 'D41.5', 'D67.5', 'D60.5', 'D54.5', 'D47.5', 'D40.5', 'D66.5', 'D59.5', 'D53.5', 'D46.5', 'D39.5', 'D65.5', 'D58.5', 'D52.5', 'D45.5', 'D38.5', 'D64.5', 'D57.5', 'D51.5', 'D44.5', 'D37.5', 'D56.5', 'D63.5', 'D50.5', 'D43.5', 'D36.5', 'D62.5', 'D49.5', 'D42.5', 'D35.5', 'D34.5', 'D33.5', 'D32.5', 'D31.5', 'D30.5', 'D29.5', 'D28.5', 'D27.5', 'D21.5', 'D26.5', 'D20.5', 'D25.5', 'D19.5', 'D24.5', 'D18.5', 'D23.5', 'D17.5', 'D16.5', 'D22.5', 'D15.5', 'D14.5', 'D13.5', 'D12.5', 'D11.5', 'D10.5', 'D9.5', 'D8.5', 'D7.5', 'D6.5', 'D5.5']}
+[kbplacer_dialog.py:586]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/home/micah/Documents/Hack Club/Keyboards/ergo-kola/ergogen/ergo-kola-kle.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:362]: Set key 1U distance: 19050000/19050000
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'R_C6', 'R_R4'}): ['SW51'], frozenset({'R_C6', 'R_R0'}): ['SW27'], frozenset({'R_R0', 'R_C9'}): ['SW30'], frozenset({'R_C11', 'R_R1'}): ['SW38'], frozenset({'L_R2', 'L_C2'}): ['SW15'], frozenset({'L_C2', 'L_R1'}): ['SW9'], frozenset({'R_C10', 'R_R2'}): ['SW43'], frozenset({'L_R1', 'L_C1'}): ['SW8'], frozenset({'R_R0', 'R_C7'}): ['SW28'], frozenset({'L_C3', 'L_R1'}): ['SW10'], frozenset({'R_R2', 'R_C7'}): ['SW40'], frozenset({'L_C3', 'L_R3'}): ['SW22'], frozenset({'R_R1', 'R_C6'}): ['SW33'], frozenset({'R_C11', 'R_R2'}): ['SW44'], frozenset({'R_R2', 'R_C9'}): ['SW42'], frozenset({'L_C5', 'L_R2'}): ['SW18'], frozenset({'R_R2', 'R_C6'}): ['SW39'], frozenset({'R_R3', 'R_C9'}): ['SW48'], frozenset({'R_R1', 'R_C7'}): ['SW34'], frozenset({'R_C7', 'R_R3'}): ['SW46'], frozenset({'R_C6', 'R_R3'}): ['SW45'], frozenset({'L_C0', 'L_R2'}): ['SW13'], frozenset({'L_C5', 'L_R4'}): ['SW26'], frozenset({'R_R0', 'R_C8'}): ['SW29'], frozenset({'R_R0', 'R_C11'}): ['SW32'], frozenset({'R_C10', 'R_R1'}): ['SW37'], frozenset({'L_C4', 'L_R3'}): ['SW23'], frozenset({'L_R0', 'L_C3'}): ['SW4'], frozenset({'R_R1', 'R_C8'}): ['SW35'], frozenset({'L_C5', 'L_R1'}): ['SW12'], frozenset({'L_C4', 'L_R0'}): ['SW5'], frozenset({'L_C2', 'L_R3'}): ['SW21'], frozenset({'R_R2', 'R_C8'}): ['SW41'], frozenset({'R_C11', 'R_R3'}): ['SW50'], frozenset({'L_R0', 'L_C0'}): ['SW1'], frozenset({'R_R4', 'R_C7'}): ['SW52'], frozenset({'R_R1', 'R_C9'}): ['SW36'], frozenset({'L_C0', 'L_R1'}): ['SW7'], frozenset({'L_R0', 'L_C1'}): ['SW2'], frozenset({'L_R0', 'L_C2'}): ['SW3'], frozenset({'L_R3', 'L_C1'}): ['SW20'], frozenset({'L_C4', 'L_R2'}): ['SW17'], frozenset({'L_R2', 'L_C1'}): ['SW14'], frozenset({'R_R3', 'R_C8'}): ['SW47'], frozenset({'L_C5', 'L_R3'}): ['SW24'], frozenset({'L_R2', 'L_C3'}): ['SW16'], frozenset({'L_R0', 'L_C5'}): ['SW6'], frozenset({'L_C4', 'L_R1'}): ['SW11'], frozenset({'R_C10', 'R_R3'}): ['SW49'], frozenset({'R_C10', 'R_R0'}): ['SW31'], frozenset({'L_C0', 'L_R3'}): ['SW19'], frozenset({'L_C4', 'L_R4'}): ['SW25']})
+[key_placer.py:128]: Diodes by switch: {'SW43': ['D43'], 'SW5': ['D5'], 'SW2': ['D2'], 'SW41': ['D41'], 'SW18': ['D18'], 'SW13': ['D13'], 'SW39': ['D39'], 'SW23': ['D23'], 'SW46': ['D46'], 'SW3': ['D3'], 'SW11': ['D11'], 'SW7': ['D7'], 'SW17': ['D17'], 'SW52': ['D52'], 'SW9': ['D9'], 'SW42': ['D42'], 'SW40': ['D40'], 'SW21': ['D21'], 'SW30': ['D30'], 'SW32': ['D32'], 'SW27': ['D27'], 'SW1': ['D1'], 'SW19': ['D19'], 'SW34': ['D34'], 'SW36': ['D36'], 'SW10': ['D10'], 'SW31': ['D31'], 'SW47': ['D47'], 'SW22': ['D22'], 'SW14': ['D14'], 'SW45': ['D45'], 'SW50': ['D50'], 'SW33': ['D33'], 'SW12': ['D12'], 'SW20': ['D20'], 'SW44': ['D44'], 'SW4': ['D4'], 'SW6': ['D6'], 'SW38': ['D38'], 'SW28': ['D28'], 'SW35': ['D35'], 'SW8': ['D8'], 'SW15': ['D15'], 'SW49': ['D49'], 'SW24': ['D24'], 'SW51': ['D51'], 'SW48': ['D48'], 'SW16': ['D16'], 'SW26': ['D26'], 'SW37': ['D37'], 'SW29': ['D29'], 'SW25': ['D25']}
+[kle_serial.py:897]: User layout: [[{'r': 15, 'rx': 1.250141, 'ry': 0.473684, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R3,L_C4'], [{'r': -15, 'rx': 14.313652, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R3,R_C11'], [{'r': 22, 'rx': 3.784218, 'ry': 0.526631, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R3,L_C2'], [{'r': -22, 'rx': 11.779575, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R3,R_C9'], [{'r': 18, 'rx': 2.406703, 'ry': 0.734099, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R3,L_C1'], [{'r': -18, 'rx': 13.15709, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R3,R_C10'], [{'r': 22, 'rx': 4.77055, 'ry': 0.75484, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R3,L_C3'], [{'r': -22, 'rx': 10.793243, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R3,R_C8'], [{'r': 22, 'rx': 5.638586, 'ry': 1.275844, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R3,L_C4'], [{'r': -22, 'rx': 9.925208, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R3,R_C7'], [{'r': 15, 'rx': 0.991322, 'ry': 1.43961, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R2,L_C4'], [{'r': -15, 'rx': 14.572471, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R2,R_C11'], [{'r': 22, 'rx': 3.409611, 'ry': 1.453815, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R2,L_C2'], [{'r': -22, 'rx': 12.154182, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R2,R_C9'], [{'r': 22, 'rx': 4.395943, 'ry': 1.682024, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R2,L_C3'], [{'r': -22, 'rx': 11.16785, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R2,R_C8'], [{'r': 18, 'rx': 2.097686, 'ry': 1.685155, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R2,L_C1'], [{'r': -18, 'rx': 13.466107, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R2,R_C10'], [{'r': 18, 'rx': 6.710297, 'ry': 1.855343, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R3,L_C5'], [{'r': -18, 'rx': 8.853496, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R3,R_C6'], [{'r': 22, 'rx': 5.263979, 'ry': 2.203028, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R2,L_C4'], [{'r': -22, 'rx': 10.299814, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R2,R_C7'], [{'r': 22, 'rx': 3.035005, 'ry': 2.380999, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R1,L_C2'], [{'r': -22, 'rx': 12.528789, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R1,R_C9'], [{'r': 15, 'rx': 0.732503, 'ry': 2.405536, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R1,L_C4'], [{'r': -15, 'rx': 14.83129, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R1,R_C11'], [{'r': 22, 'rx': 4.021337, 'ry': 2.609208, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R1,L_C3'], [{'r': -22, 'rx': 11.542456, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R1,R_C8'], [{'r': 18, 'rx': 1.788669, 'ry': 2.636212, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R1,L_C1'], [{'r': -18, 'rx': 13.775124, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R1,R_C10'], [{'r': 18, 'rx': 6.301169, 'ry': 2.773871, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R2,L_C5'], [{'r': -18, 'rx': 9.262624, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R2,R_C6'], [{'r': 22, 'rx': 4.889372, 'ry': 3.130212, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R1,L_C4'], [{'r': -22, 'rx': 10.674421, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R1,R_C7'], [{'r': 22, 'rx': 2.660398, 'ry': 3.308183, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R0,L_C2'], [{'r': -22, 'rx': 12.903395, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R0,R_C9'], [{'r': 15, 'rx': 0.473684, 'ry': 3.371462, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R0,L_C4'], [{'r': -15, 'rx': 15.090109, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R0,R_C11'], [{'r': 22, 'rx': 3.64673, 'ry': 3.536392, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R0,L_C3'], [{'r': -22, 'rx': 11.917063, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R0,R_C8'], [{'r': 18, 'rx': 1.479652, 'ry': 3.587268, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R0,L_C1'], [{'r': -18, 'rx': 14.084141, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R0,R_C10'], [{'r': 18, 'rx': 5.892041, 'ry': 3.6924, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R1,L_C5'], [{'r': -18, 'rx': 9.671753, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R1,R_C6'], [{'r': 22, 'rx': 4.514766, 'ry': 4.057396, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R0,L_C4'], [{'r': -22, 'rx': 11.049027, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R0,R_C7'], [{'r': 18, 'rx': 5.482912, 'ry': 4.610928, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R0,L_C5'], [{'r': -18, 'rx': 10.080881, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'R_R0,R_C6'], [{'r': 18, 'rx': 3.374421, 'ry': 5.30934, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R4,L_C3'], [{'r': -18, 'rx': 12.189373, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R4,R_R4'], [{'r': 8, 'rx': 4.36501, 'ry': 5.720982, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R4,L_C4'], [{'r': -8, 'rx': 11.198783, 'x': -0.473684, 'y': -0.473684, 'w': 0.947368, 'h': 0.947368}, 'L_R4,R_R4']]
+[key_placer.py:662]: Layout offset: (33334814, 29076320)
+[board_modifier.py:85]: Setting SW1 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (306009884, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (105424166, 39108640)
+[board_modifier.py:85]: Setting SW4 footprint position: (257735717, 39108640)
+[board_modifier.py:85]: Setting SW5 footprint position: (79182506, 43060905)
+[board_modifier.py:85]: Setting SW6 footprint position: (283977378, 43060905)
+[board_modifier.py:85]: Setting SW7 footprint position: (124213791, 43456022)
+[board_modifier.py:85]: Setting SW8 footprint position: (238946093, 43456022)
+[board_modifier.py:85]: Setting SW9 footprint position: (140749877, 53381148)
+[board_modifier.py:85]: Setting SW10 footprint position: (222410026, 53381148)
+[board_modifier.py:85]: Setting SW11 footprint position: (52219498, 56500890)
+[board_modifier.py:85]: Setting SW12 footprint position: (310940386, 56500890)
+[board_modifier.py:85]: Setting SW13 footprint position: (98287903, 56771495)
+[board_modifier.py:85]: Setting SW14 footprint position: (264871981, 56771495)
+[board_modifier.py:85]: Setting SW15 footprint position: (117077528, 61118877)
+[board_modifier.py:85]: Setting SW16 footprint position: (246082356, 61118877)
+[board_modifier.py:85]: Setting SW17 footprint position: (73295732, 61178522)
+[board_modifier.py:85]: Setting SW18 footprint position: (289864152, 61178522)
+[board_modifier.py:85]: Setting SW19 footprint position: (161165971, 64420604)
+[board_modifier.py:85]: Setting SW20 footprint position: (201993912, 64420604)
+[board_modifier.py:85]: Setting SW21 footprint position: (133613613, 71044003)
+[board_modifier.py:85]: Setting SW22 footprint position: (229546270, 71044003)
+[board_modifier.py:85]: Setting SW23 footprint position: (91151659, 74434350)
+[board_modifier.py:85]: Setting SW24 footprint position: (272008244, 74434350)
+[board_modifier.py:85]: Setting SW25 footprint position: (47288996, 74901780)
+[board_modifier.py:85]: Setting SW26 footprint position: (315870888, 74901780)
+[board_modifier.py:85]: Setting SW27 footprint position: (109941283, 78781732)
+[board_modifier.py:85]: Setting SW28 footprint position: (253218600, 78781732)
+[board_modifier.py:85]: Setting SW29 footprint position: (67408958, 79296158)
+[board_modifier.py:85]: Setting SW30 footprint position: (295750926, 79296158)
+[board_modifier.py:85]: Setting SW31 footprint position: (153372083, 81918562)
+[board_modifier.py:85]: Setting SW32 footprint position: (209787801, 81918562)
+[board_modifier.py:85]: Setting SW33 footprint position: (126477350, 88706858)
+[board_modifier.py:85]: Setting SW34 footprint position: (236682534, 88706858)
+[board_modifier.py:85]: Setting SW35 footprint position: (84015395, 92097206)
+[board_modifier.py:85]: Setting SW36 footprint position: (279144488, 92097206)
+[board_modifier.py:85]: Setting SW37 footprint position: (42358494, 93302671)
+[board_modifier.py:85]: Setting SW38 footprint position: (320801390, 93302671)
+[board_modifier.py:85]: Setting SW39 footprint position: (102805020, 96444587)
+[board_modifier.py:85]: Setting SW40 footprint position: (260354864, 96444587)
+[board_modifier.py:85]: Setting SW41 footprint position: (61522184, 97413775)
+[board_modifier.py:85]: Setting SW42 footprint position: (301637700, 97413775)
+[board_modifier.py:85]: Setting SW43 footprint position: (145578195, 99416540)
+[board_modifier.py:85]: Setting SW44 footprint position: (217581708, 99416540)
+[board_modifier.py:85]: Setting SW45 footprint position: (119341106, 106369713)
+[board_modifier.py:85]: Setting SW46 footprint position: (243818778, 106369713)
+[board_modifier.py:85]: Setting SW47 footprint position: (137784287, 116914498)
+[board_modifier.py:85]: Setting SW48 footprint position: (225375597, 116914498)
+[board_modifier.py:85]: Setting SW49 footprint position: (97617534, 130219247)
+[board_modifier.py:85]: Setting SW50 footprint position: (265542369, 130219247)
+[board_modifier.py:85]: Setting SW51 footprint position: (116488254, 138061027)
+[board_modifier.py:85]: Setting SW52 footprint position: (246671630, 138061027)
+[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (61272681, 42341556)
+[board_modifier.py:98]: Getting D1 footprint position: (61272681, 42341556)
+[board_modifier.py:98]: Getting SW2 footprint position: (306009884, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (311701008, 39711954)
+[board_modifier.py:98]: Getting D2 footprint position: (311701008, 39711954)
+[board_modifier.py:98]: Getting SW3 footprint position: (105424166, 39108640)
+[board_modifier.py:85]: Setting D3 footprint position: (108999202, 43821008)
+[board_modifier.py:98]: Getting D3 footprint position: (108999202, 43821008)
+[board_modifier.py:98]: Getting SW4 footprint position: (257735717, 39108640)
+[board_modifier.py:85]: Setting D4 footprint position: (263580868, 40015005)
+[board_modifier.py:98]: Getting D4 footprint position: (263580868, 40015005)
+[board_modifier.py:98]: Getting SW5 footprint position: (79182506, 43060905)
+[board_modifier.py:85]: Setting D5 footprint position: (83077551, 47512412)
+[board_modifier.py:98]: Getting D5 footprint position: (83077551, 47512412)
+[board_modifier.py:98]: Getting SW6 footprint position: (283977378, 43060905)
+[board_modifier.py:85]: Setting D6 footprint position: (289745066, 44372799)
+[board_modifier.py:98]: Getting D6 footprint position: (289745066, 44372799)
+[board_modifier.py:98]: Getting SW7 footprint position: (124213791, 43456022)
+[board_modifier.py:85]: Setting D7 footprint position: (127788827, 48168390)
+[board_modifier.py:98]: Getting D7 footprint position: (127788827, 48168390)
+[board_modifier.py:98]: Getting SW8 footprint position: (238946093, 43456022)
+[board_modifier.py:85]: Setting D8 footprint position: (244791244, 44362387)
+[board_modifier.py:98]: Getting D8 footprint position: (244791244, 44362387)
+[board_modifier.py:98]: Getting SW9 footprint position: (140749877, 53381148)
+[board_modifier.py:85]: Setting D9 footprint position: (144324913, 58093516)
+[board_modifier.py:98]: Getting D9 footprint position: (144324913, 58093516)
+[board_modifier.py:98]: Getting SW10 footprint position: (222410026, 53381148)
+[board_modifier.py:85]: Setting D10 footprint position: (228255177, 54287513)
+[board_modifier.py:98]: Getting D10 footprint position: (228255177, 54287513)
+[board_modifier.py:98]: Getting SW11 footprint position: (52219498, 56500890)
+[board_modifier.py:85]: Setting D11 footprint position: (56342179, 60742446)
+[board_modifier.py:98]: Getting D11 footprint position: (56342179, 60742446)
+[board_modifier.py:98]: Getting SW12 footprint position: (310940386, 56500890)
+[board_modifier.py:85]: Setting D12 footprint position: (316631510, 58112844)
+[board_modifier.py:98]: Getting D12 footprint position: (316631510, 58112844)
+[board_modifier.py:98]: Getting SW13 footprint position: (98287903, 56771495)
+[board_modifier.py:85]: Setting D13 footprint position: (101862939, 61483863)
+[board_modifier.py:98]: Getting D13 footprint position: (101862939, 61483863)
+[board_modifier.py:98]: Getting SW14 footprint position: (264871981, 56771495)
+[board_modifier.py:85]: Setting D14 footprint position: (270717132, 57677860)
+[board_modifier.py:98]: Getting D14 footprint position: (270717132, 57677860)
+[board_modifier.py:98]: Getting SW15 footprint position: (117077528, 61118877)
+[board_modifier.py:85]: Setting D15 footprint position: (120652564, 65831245)
+[board_modifier.py:98]: Getting D15 footprint position: (120652564, 65831245)
+[board_modifier.py:98]: Getting SW16 footprint position: (246082356, 61118877)
+[board_modifier.py:85]: Setting D16 footprint position: (251927507, 62025242)
+[board_modifier.py:98]: Getting D16 footprint position: (251927507, 62025242)
+[board_modifier.py:98]: Getting SW17 footprint position: (73295732, 61178522)
+[board_modifier.py:85]: Setting D17 footprint position: (77190777, 65630029)
+[board_modifier.py:98]: Getting D17 footprint position: (77190777, 65630029)
+[board_modifier.py:98]: Getting SW18 footprint position: (289864152, 61178522)
+[board_modifier.py:85]: Setting D18 footprint position: (295631840, 62490416)
+[board_modifier.py:98]: Getting D18 footprint position: (295631840, 62490416)
+[board_modifier.py:98]: Getting SW19 footprint position: (161165971, 64420604)
+[board_modifier.py:85]: Setting D19 footprint position: (165061016, 68872111)
+[board_modifier.py:98]: Getting D19 footprint position: (165061016, 68872111)
+[board_modifier.py:98]: Getting SW20 footprint position: (201993912, 64420604)
+[board_modifier.py:85]: Setting D20 footprint position: (207761600, 65732498)
+[board_modifier.py:98]: Getting D20 footprint position: (207761600, 65732498)
+[board_modifier.py:98]: Getting SW21 footprint position: (133613613, 71044003)
+[board_modifier.py:85]: Setting D21 footprint position: (137188649, 75756371)
+[board_modifier.py:98]: Getting D21 footprint position: (137188649, 75756371)
+[board_modifier.py:98]: Getting SW22 footprint position: (229546270, 71044003)
+[board_modifier.py:85]: Setting D22 footprint position: (235391421, 71950368)
+[board_modifier.py:98]: Getting D22 footprint position: (235391421, 71950368)
+[board_modifier.py:98]: Getting SW23 footprint position: (91151659, 74434350)
+[board_modifier.py:85]: Setting D23 footprint position: (94726695, 79146718)
+[board_modifier.py:98]: Getting D23 footprint position: (94726695, 79146718)
+[board_modifier.py:98]: Getting SW24 footprint position: (272008244, 74434350)
+[board_modifier.py:85]: Setting D24 footprint position: (277853395, 75340715)
+[board_modifier.py:98]: Getting D24 footprint position: (277853395, 75340715)
+[board_modifier.py:98]: Getting SW25 footprint position: (47288996, 74901780)
+[board_modifier.py:85]: Setting D25 footprint position: (51411677, 79143336)
+[board_modifier.py:98]: Getting D25 footprint position: (51411677, 79143336)
+[board_modifier.py:98]: Getting SW26 footprint position: (315870888, 74901780)
+[board_modifier.py:85]: Setting D26 footprint position: (321562012, 76513734)
+[board_modifier.py:98]: Getting D26 footprint position: (321562012, 76513734)
+[board_modifier.py:98]: Getting SW27 footprint position: (109941283, 78781732)
+[board_modifier.py:85]: Setting D27 footprint position: (113516319, 83494100)
+[board_modifier.py:98]: Getting D27 footprint position: (113516319, 83494100)
+[board_modifier.py:98]: Getting SW28 footprint position: (253218600, 78781732)
+[board_modifier.py:85]: Setting D28 footprint position: (259063751, 79688097)
+[board_modifier.py:98]: Getting D28 footprint position: (259063751, 79688097)
+[board_modifier.py:98]: Getting SW29 footprint position: (67408958, 79296158)
+[board_modifier.py:85]: Setting D29 footprint position: (71304003, 83747665)
+[board_modifier.py:98]: Getting D29 footprint position: (71304003, 83747665)
+[board_modifier.py:98]: Getting SW30 footprint position: (295750926, 79296158)
+[board_modifier.py:85]: Setting D30 footprint position: (301518614, 80608052)
+[board_modifier.py:98]: Getting D30 footprint position: (301518614, 80608052)
+[board_modifier.py:98]: Getting SW31 footprint position: (153372083, 81918562)
+[board_modifier.py:85]: Setting D31 footprint position: (157267128, 86370069)
+[board_modifier.py:98]: Getting D31 footprint position: (157267128, 86370069)
+[board_modifier.py:98]: Getting SW32 footprint position: (209787801, 81918562)
+[board_modifier.py:85]: Setting D32 footprint position: (215555489, 83230456)
+[board_modifier.py:98]: Getting D32 footprint position: (215555489, 83230456)
+[board_modifier.py:98]: Getting SW33 footprint position: (126477350, 88706858)
+[board_modifier.py:85]: Setting D33 footprint position: (130052386, 93419226)
+[board_modifier.py:98]: Getting D33 footprint position: (130052386, 93419226)
+[board_modifier.py:98]: Getting SW34 footprint position: (236682534, 88706858)
+[board_modifier.py:85]: Setting D34 footprint position: (242527685, 89613223)
+[board_modifier.py:98]: Getting D34 footprint position: (242527685, 89613223)
+[board_modifier.py:98]: Getting SW35 footprint position: (84015395, 92097206)
+[board_modifier.py:85]: Setting D35 footprint position: (87590431, 96809574)
+[board_modifier.py:98]: Getting D35 footprint position: (87590431, 96809574)
+[board_modifier.py:98]: Getting SW36 footprint position: (279144488, 92097206)
+[board_modifier.py:85]: Setting D36 footprint position: (284989639, 93003571)
+[board_modifier.py:98]: Getting D36 footprint position: (284989639, 93003571)
+[board_modifier.py:98]: Getting SW37 footprint position: (42358494, 93302671)
+[board_modifier.py:85]: Setting D37 footprint position: (46481175, 97544227)
+[board_modifier.py:98]: Getting D37 footprint position: (46481175, 97544227)
+[board_modifier.py:98]: Getting SW38 footprint position: (320801390, 93302671)
+[board_modifier.py:85]: Setting D38 footprint position: (326492514, 94914625)
+[board_modifier.py:98]: Getting D38 footprint position: (326492514, 94914625)
+[board_modifier.py:98]: Getting SW39 footprint position: (102805020, 96444587)
+[board_modifier.py:85]: Setting D39 footprint position: (106380056, 101156955)
+[board_modifier.py:98]: Getting D39 footprint position: (106380056, 101156955)
+[board_modifier.py:98]: Getting SW40 footprint position: (260354864, 96444587)
+[board_modifier.py:85]: Setting D40 footprint position: (266200015, 97350952)
+[board_modifier.py:98]: Getting D40 footprint position: (266200015, 97350952)
+[board_modifier.py:98]: Getting SW41 footprint position: (61522184, 97413775)
+[board_modifier.py:85]: Setting D41 footprint position: (65417229, 101865282)
+[board_modifier.py:98]: Getting D41 footprint position: (65417229, 101865282)
+[board_modifier.py:98]: Getting SW42 footprint position: (301637700, 97413775)
+[board_modifier.py:85]: Setting D42 footprint position: (307405388, 98725669)
+[board_modifier.py:98]: Getting D42 footprint position: (307405388, 98725669)
+[board_modifier.py:98]: Getting SW43 footprint position: (145578195, 99416540)
+[board_modifier.py:85]: Setting D43 footprint position: (149473240, 103868047)
+[board_modifier.py:98]: Getting D43 footprint position: (149473240, 103868047)
+[board_modifier.py:98]: Getting SW44 footprint position: (217581708, 99416540)
+[board_modifier.py:85]: Setting D44 footprint position: (223349396, 100728434)
+[board_modifier.py:98]: Getting D44 footprint position: (223349396, 100728434)
+[board_modifier.py:98]: Getting SW45 footprint position: (119341106, 106369713)
+[board_modifier.py:85]: Setting D45 footprint position: (122916142, 111082081)
+[board_modifier.py:98]: Getting D45 footprint position: (122916142, 111082081)
+[board_modifier.py:98]: Getting SW46 footprint position: (243818778, 106369713)
+[board_modifier.py:85]: Setting D46 footprint position: (249663929, 107276078)
+[board_modifier.py:98]: Getting D46 footprint position: (249663929, 107276078)
+[board_modifier.py:98]: Getting SW47 footprint position: (137784287, 116914498)
+[board_modifier.py:85]: Setting D47 footprint position: (141679332, 121366005)
+[board_modifier.py:98]: Getting D47 footprint position: (141679332, 121366005)
+[board_modifier.py:98]: Getting SW48 footprint position: (225375597, 116914498)
+[board_modifier.py:85]: Setting D48 footprint position: (231143285, 118226392)
+[board_modifier.py:98]: Getting D48 footprint position: (231143285, 118226392)
+[board_modifier.py:98]: Getting SW49 footprint position: (97617534, 130219247)
+[board_modifier.py:85]: Setting D49 footprint position: (101512579, 134670754)
+[board_modifier.py:98]: Getting D49 footprint position: (101512579, 134670754)
+[board_modifier.py:98]: Getting SW50 footprint position: (265542369, 130219247)
+[board_modifier.py:85]: Setting D50 footprint position: (271310057, 131531141)
+[board_modifier.py:98]: Getting D50 footprint position: (271310057, 131531141)
+[board_modifier.py:98]: Getting SW51 footprint position: (116488254, 138061027)
+[board_modifier.py:85]: Setting D51 footprint position: (121097121, 141768538)
+[board_modifier.py:98]: Getting D51 footprint position: (121097121, 141768538)
+[board_modifier.py:98]: Getting SW52 footprint position: (246671630, 138061027)
+[board_modifier.py:85]: Setting D52 footprint position: (252123886, 140354539)
+[board_modifier.py:98]: Getting D52 footprint position: (252123886, 140354539)
+[key_placer.py:747]: Optimizing orientation of SW1 diodes
+[board_modifier.py:98]: Getting D1 footprint position: (61272681, 42341556)
+[key_placer.py:747]: Optimizing orientation of SW2 diodes
+[board_modifier.py:98]: Getting D2 footprint position: (311701008, 39711954)
+[key_placer.py:747]: Optimizing orientation of SW3 diodes
+[board_modifier.py:98]: Getting D3 footprint position: (108999202, 43821008)
+[key_placer.py:747]: Optimizing orientation of SW4 diodes
+[board_modifier.py:98]: Getting D4 footprint position: (263580868, 40015005)
+[key_placer.py:747]: Optimizing orientation of SW5 diodes
+[board_modifier.py:98]: Getting D5 footprint position: (83077551, 47512412)
+[key_placer.py:747]: Optimizing orientation of SW6 diodes
+[board_modifier.py:98]: Getting D6 footprint position: (289745066, 44372799)
+[key_placer.py:747]: Optimizing orientation of SW7 diodes
+[board_modifier.py:98]: Getting D7 footprint position: (127788827, 48168390)
+[key_placer.py:747]: Optimizing orientation of SW8 diodes
+[board_modifier.py:98]: Getting D8 footprint position: (244791244, 44362387)
+[key_placer.py:747]: Optimizing orientation of SW9 diodes
+[board_modifier.py:98]: Getting D9 footprint position: (144324913, 58093516)
+[key_placer.py:747]: Optimizing orientation of SW10 diodes
+[board_modifier.py:98]: Getting D10 footprint position: (228255177, 54287513)
+[key_placer.py:747]: Optimizing orientation of SW11 diodes
+[board_modifier.py:98]: Getting D11 footprint position: (56342179, 60742446)
+[key_placer.py:747]: Optimizing orientation of SW12 diodes
+[board_modifier.py:98]: Getting D12 footprint position: (316631510, 58112844)
+[key_placer.py:747]: Optimizing orientation of SW13 diodes
+[board_modifier.py:98]: Getting D13 footprint position: (101862939, 61483863)
+[key_placer.py:747]: Optimizing orientation of SW14 diodes
+[board_modifier.py:98]: Getting D14 footprint position: (270717132, 57677860)
+[key_placer.py:747]: Optimizing orientation of SW15 diodes
+[board_modifier.py:98]: Getting D15 footprint position: (120652564, 65831245)
+[key_placer.py:747]: Optimizing orientation of SW16 diodes
+[board_modifier.py:98]: Getting D16 footprint position: (251927507, 62025242)
+[key_placer.py:747]: Optimizing orientation of SW17 diodes
+[board_modifier.py:98]: Getting D17 footprint position: (77190777, 65630029)
+[key_placer.py:747]: Optimizing orientation of SW18 diodes
+[board_modifier.py:98]: Getting D18 footprint position: (295631840, 62490416)
+[key_placer.py:747]: Optimizing orientation of SW19 diodes
+[board_modifier.py:98]: Getting D19 footprint position: (165061016, 68872111)
+[key_placer.py:747]: Optimizing orientation of SW20 diodes
+[board_modifier.py:98]: Getting D20 footprint position: (207761600, 65732498)
+[key_placer.py:747]: Optimizing orientation of SW21 diodes
+[board_modifier.py:98]: Getting D21 footprint position: (137188649, 75756371)
+[key_placer.py:747]: Optimizing orientation of SW22 diodes
+[board_modifier.py:98]: Getting D22 footprint position: (235391421, 71950368)
+[key_placer.py:747]: Optimizing orientation of SW23 diodes
+[board_modifier.py:98]: Getting D23 footprint position: (94726695, 79146718)
+[key_placer.py:747]: Optimizing orientation of SW24 diodes
+[board_modifier.py:98]: Getting D24 footprint position: (277853395, 75340715)
+[key_placer.py:747]: Optimizing orientation of SW25 diodes
+[board_modifier.py:98]: Getting D25 footprint position: (51411677, 79143336)
+[key_placer.py:747]: Optimizing orientation of SW26 diodes
+[board_modifier.py:98]: Getting D26 footprint position: (321562012, 76513734)
+[key_placer.py:747]: Optimizing orientation of SW27 diodes
+[board_modifier.py:98]: Getting D27 footprint position: (113516319, 83494100)
+[key_placer.py:747]: Optimizing orientation of SW28 diodes
+[board_modifier.py:98]: Getting D28 footprint position: (259063751, 79688097)
+[key_placer.py:747]: Optimizing orientation of SW29 diodes
+[board_modifier.py:98]: Getting D29 footprint position: (71304003, 83747665)
+[key_placer.py:747]: Optimizing orientation of SW30 diodes
+[board_modifier.py:98]: Getting D30 footprint position: (301518614, 80608052)
+[key_placer.py:747]: Optimizing orientation of SW31 diodes
+[board_modifier.py:98]: Getting D31 footprint position: (157267128, 86370069)
+[key_placer.py:747]: Optimizing orientation of SW32 diodes
+[board_modifier.py:98]: Getting D32 footprint position: (215555489, 83230456)
+[key_placer.py:747]: Optimizing orientation of SW33 diodes
+[board_modifier.py:98]: Getting D33 footprint position: (130052386, 93419226)
+[key_placer.py:747]: Optimizing orientation of SW34 diodes
+[board_modifier.py:98]: Getting D34 footprint position: (242527685, 89613223)
+[key_placer.py:747]: Optimizing orientation of SW35 diodes
+[board_modifier.py:98]: Getting D35 footprint position: (87590431, 96809574)
+[key_placer.py:747]: Optimizing orientation of SW36 diodes
+[board_modifier.py:98]: Getting D36 footprint position: (284989639, 93003571)
+[key_placer.py:747]: Optimizing orientation of SW37 diodes
+[board_modifier.py:98]: Getting D37 footprint position: (46481175, 97544227)
+[key_placer.py:747]: Optimizing orientation of SW38 diodes
+[board_modifier.py:98]: Getting D38 footprint position: (326492514, 94914625)
+[key_placer.py:747]: Optimizing orientation of SW39 diodes
+[board_modifier.py:98]: Getting D39 footprint position: (106380056, 101156955)
+[key_placer.py:747]: Optimizing orientation of SW40 diodes
+[board_modifier.py:98]: Getting D40 footprint position: (266200015, 97350952)
+[key_placer.py:747]: Optimizing orientation of SW41 diodes
+[board_modifier.py:98]: Getting D41 footprint position: (65417229, 101865282)
+[key_placer.py:747]: Optimizing orientation of SW42 diodes
+[board_modifier.py:98]: Getting D42 footprint position: (307405388, 98725669)
+[key_placer.py:747]: Optimizing orientation of SW43 diodes
+[board_modifier.py:98]: Getting D43 footprint position: (149473240, 103868047)
+[key_placer.py:747]: Optimizing orientation of SW44 diodes
+[board_modifier.py:98]: Getting D44 footprint position: (223349396, 100728434)
+[key_placer.py:747]: Optimizing orientation of SW45 diodes
+[board_modifier.py:98]: Getting D45 footprint position: (122916142, 111082081)
+[key_placer.py:747]: Optimizing orientation of SW46 diodes
+[board_modifier.py:98]: Getting D46 footprint position: (249663929, 107276078)
+[key_placer.py:747]: Optimizing orientation of SW47 diodes
+[board_modifier.py:98]: Getting D47 footprint position: (141679332, 121366005)
+[key_placer.py:747]: Optimizing orientation of SW48 diodes
+[board_modifier.py:98]: Getting D48 footprint position: (231143285, 118226392)
+[key_placer.py:747]: Optimizing orientation of SW49 diodes
+[board_modifier.py:98]: Getting D49 footprint position: (101512579, 134670754)
+[key_placer.py:747]: Optimizing orientation of SW50 diodes
+[board_modifier.py:98]: Getting D50 footprint position: (271310057, 131531141)
+[key_placer.py:747]: Optimizing orientation of SW51 diodes
+[board_modifier.py:98]: Getting D51 footprint position: (121097121, 141768538)
+[key_placer.py:747]: Optimizing orientation of SW52 diodes
+[board_modifier.py:98]: Getting D52 footprint position: (252123886, 140354539)
+[key_placer.py:775]: Placing additional elements for SW51
+[board_modifier.py:98]: Getting SW51 footprint position: (116488254, 138061027)
+[board_modifier.py:75]: Searching for optional ST51 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (109941283, 78781732)
+[board_modifier.py:75]: Searching for optional ST27 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (295750926, 79296158)
+[board_modifier.py:75]: Searching for optional ST30 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW38
+[board_modifier.py:98]: Getting SW38 footprint position: (320801390, 93302671)
+[board_modifier.py:75]: Searching for optional ST38 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (117077528, 61118877)
+[board_modifier.py:75]: Searching for optional ST15 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW9
+[board_modifier.py:98]: Getting SW9 footprint position: (140749877, 53381148)
+[board_modifier.py:75]: Searching for optional ST9 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW43
+[board_modifier.py:98]: Getting SW43 footprint position: (145578195, 99416540)
+[board_modifier.py:75]: Searching for optional ST43 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (238946093, 43456022)
+[board_modifier.py:75]: Searching for optional ST8 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (253218600, 78781732)
+[board_modifier.py:75]: Searching for optional ST28 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (222410026, 53381148)
+[board_modifier.py:75]: Searching for optional ST10 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW40
+[board_modifier.py:98]: Getting SW40 footprint position: (260354864, 96444587)
+[board_modifier.py:75]: Searching for optional ST40 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (229546270, 71044003)
+[board_modifier.py:75]: Searching for optional ST22 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (126477350, 88706858)
+[board_modifier.py:75]: Searching for optional ST33 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW44
+[board_modifier.py:98]: Getting SW44 footprint position: (217581708, 99416540)
+[board_modifier.py:75]: Searching for optional ST44 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW42
+[board_modifier.py:98]: Getting SW42 footprint position: (301637700, 97413775)
+[board_modifier.py:75]: Searching for optional ST42 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (289864152, 61178522)
+[board_modifier.py:75]: Searching for optional ST18 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW39
+[board_modifier.py:98]: Getting SW39 footprint position: (102805020, 96444587)
+[board_modifier.py:75]: Searching for optional ST39 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW48
+[board_modifier.py:98]: Getting SW48 footprint position: (225375597, 116914498)
+[board_modifier.py:75]: Searching for optional ST48 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (236682534, 88706858)
+[board_modifier.py:75]: Searching for optional ST34 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW46
+[board_modifier.py:98]: Getting SW46 footprint position: (243818778, 106369713)
+[board_modifier.py:75]: Searching for optional ST46 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW45
+[board_modifier.py:98]: Getting SW45 footprint position: (119341106, 106369713)
+[board_modifier.py:75]: Searching for optional ST45 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (98287903, 56771495)
+[board_modifier.py:75]: Searching for optional ST13 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW26
+[board_modifier.py:98]: Getting SW26 footprint position: (315870888, 74901780)
+[board_modifier.py:75]: Searching for optional ST26 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (67408958, 79296158)
+[board_modifier.py:75]: Searching for optional ST29 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (209787801, 81918562)
+[board_modifier.py:75]: Searching for optional ST32 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW37
+[board_modifier.py:98]: Getting SW37 footprint position: (42358494, 93302671)
+[board_modifier.py:75]: Searching for optional ST37 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (91151659, 74434350)
+[board_modifier.py:75]: Searching for optional ST23 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (257735717, 39108640)
+[board_modifier.py:75]: Searching for optional ST4 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW35
+[board_modifier.py:98]: Getting SW35 footprint position: (84015395, 92097206)
+[board_modifier.py:75]: Searching for optional ST35 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (310940386, 56500890)
+[board_modifier.py:75]: Searching for optional ST12 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (79182506, 43060905)
+[board_modifier.py:75]: Searching for optional ST5 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (133613613, 71044003)
+[board_modifier.py:75]: Searching for optional ST21 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW41
+[board_modifier.py:98]: Getting SW41 footprint position: (61522184, 97413775)
+[board_modifier.py:75]: Searching for optional ST41 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW50
+[board_modifier.py:98]: Getting SW50 footprint position: (265542369, 130219247)
+[board_modifier.py:75]: Searching for optional ST50 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW52
+[board_modifier.py:98]: Getting SW52 footprint position: (246671630, 138061027)
+[board_modifier.py:75]: Searching for optional ST52 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW36
+[board_modifier.py:98]: Getting SW36 footprint position: (279144488, 92097206)
+[board_modifier.py:75]: Searching for optional ST36 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW7
+[board_modifier.py:98]: Getting SW7 footprint position: (124213791, 43456022)
+[board_modifier.py:75]: Searching for optional ST7 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (306009884, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (105424166, 39108640)
+[board_modifier.py:75]: Searching for optional ST3 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW20
+[board_modifier.py:98]: Getting SW20 footprint position: (201993912, 64420604)
+[board_modifier.py:75]: Searching for optional ST20 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (73295732, 61178522)
+[board_modifier.py:75]: Searching for optional ST17 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (264871981, 56771495)
+[board_modifier.py:75]: Searching for optional ST14 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW47
+[board_modifier.py:98]: Getting SW47 footprint position: (137784287, 116914498)
+[board_modifier.py:75]: Searching for optional ST47 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (272008244, 74434350)
+[board_modifier.py:75]: Searching for optional ST24 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (246082356, 61118877)
+[board_modifier.py:75]: Searching for optional ST16 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (283977378, 43060905)
+[board_modifier.py:75]: Searching for optional ST6 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (52219498, 56500890)
+[board_modifier.py:75]: Searching for optional ST11 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW49
+[board_modifier.py:98]: Getting SW49 footprint position: (97617534, 130219247)
+[board_modifier.py:75]: Searching for optional ST49 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (153372083, 81918562)
+[board_modifier.py:75]: Searching for optional ST31 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW19
+[board_modifier.py:98]: Getting SW19 footprint position: (161165971, 64420604)
+[board_modifier.py:75]: Searching for optional ST19 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (47288996, 74901780)
+[board_modifier.py:75]: Searching for optional ST25 footprint in /home/micah/Documents/Hack Club/Keyboards/ergo-kola/pcb/ergo-kola/ergo-kola.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:424]: Routing SW51 with D51
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW51:2' at (123151716, 133867591) with pad 'D51:2' at (121326757, 140134596) using coordinate system rotated by 8.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(123151716, 133867591), (122382783, 139338821)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(123151716, 133867591), (122095687, 134663364)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(122095687, 134663364), (121326757, 140134596)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW27 with D27
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW27:2' at (117421295, 76324897) with pad 'D27:2' at (114134420, 81964247) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(117421295, 76324897), (115351593, 81447586)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(117421295, 76324897), (116204120, 76841555)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(116204120, 76841555), (114134420, 81964247)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW30 with D30
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW30:2' at (299901725, 72606054) with pad 'D30:2' at (301008736, 79038809) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(299901725, 72606054), (301609042, 77860638)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(299901725, 72606054), (299301417, 73784223)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(299301417, 73784223), (301008736, 79038809)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW38 with D38
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW38:2' at (325296633, 86838971) with pad 'D38:2' at (326065464, 93320847) using coordinate system rotated by 345.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(325296633, 86838971), (326726607, 92175711)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(325296633, 86838971), (324635488, 87984105)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(324635488, 87984105), (326065464, 93320847)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW15 with D15
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW15:2' at (124557540, 58662042) with pad 'D15:2' at (121270665, 64301392) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(124557540, 58662042), (122487838, 63784732)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(124557540, 58662042), (123340366, 59178700)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(123340366, 59178700), (121270665, 64301392)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW9 with D9
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW9:2' at (148229889, 50924313) with pad 'D9:2' at (144943014, 56563663) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(148229889, 50924313), (146160187, 56047003)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(148229889, 50924313), (147012714, 51440973)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(147012714, 51440973), (144943014, 56563663)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW43 with D43
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW43:2' at (152868606, 96443910) with pad 'D43:2' at (149983118, 102298804) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(152868606, 96443910), (151161287, 101698495)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(152868606, 96443910), (151690436, 97044216)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(151690436, 97044216), (149983118, 102298804)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW8 with D8
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW8:2' at (242620102, 36492669) with pad 'D8:2' at (244173143, 42832534) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(242620102, 36492669), (244689802, 41615359)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(242620102, 36492669), (242103441, 37709843)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(242103441, 37709843), (244173143, 42832534)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW28 with D28
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW28:2' at (256892609, 71818379) with pad 'D28:2' at (258445650, 78158244) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(256892609, 71818379), (258962309, 76941068)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(256892609, 71818379), (256375948, 73035553)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(256375948, 73035553), (258445650, 78158244)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW10 with D10
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW10:2' at (226084035, 46417795) with pad 'D10:2' at (227637076, 52757660) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(226084035, 46417795), (228153735, 51540485)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(226084035, 46417795), (225567374, 47634969)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(225567374, 47634969), (227637076, 52757660)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW40 with D40
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW40:2' at (264028873, 89481234) with pad 'D40:2' at (265581914, 95821099) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(264028873, 89481234), (266098573, 94603924)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(264028873, 89481234), (263512212, 90698408)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(263512212, 90698408), (265581914, 95821099)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW22 with D22
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW22:2' at (233220279, 64080650) with pad 'D22:2' at (234773320, 70420515) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(233220279, 64080650), (235289979, 69203339)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(233220279, 64080650), (232703618, 65297825)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(232703618, 65297825), (234773320, 70420515)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW33 with D33
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW33:2' at (133957362, 86250023) with pad 'D33:2' at (130670487, 91889373) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(133957362, 86250023), (131887660, 91372712)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(133957362, 86250023), (132740187, 86766681)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(132740187, 86766681), (130670487, 91889373)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW44 with D44
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW44:2' at (221732507, 92726436) with pad 'D44:2' at (222839518, 99159191) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(221732507, 92726436), (223439824, 97981020)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(221732507, 92726436), (221132199, 93904605)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(221132199, 93904605), (222839518, 99159191)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW42 with D42
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW42:2' at (305788499, 90723671) with pad 'D42:2' at (306895510, 97156426) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(305788499, 90723671), (307495816, 95978256)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(305788499, 90723671), (305188190, 91901840)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(305188190, 91901840), (306895510, 97156426)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW18 with D18
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW18:2' at (294014951, 54488418) with pad 'D18:2' at (295121962, 60921173) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(294014951, 54488418), (295722268, 59743004)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(294014951, 54488418), (293414643, 55666586)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(293414643, 55666586), (295121962, 60921173)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW39 with D39
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW39:2' at (110285032, 93987752) with pad 'D39:2' at (106998157, 99627102) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(110285032, 93987752), (108215330, 99110441)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(110285032, 93987752), (109067857, 94504411)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(109067857, 94504411), (106998157, 99627102)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW48 with D48
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW48:2' at (229526396, 110224394) with pad 'D48:2' at (230633407, 116657149) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(229526396, 110224394), (231233713, 115478979)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(229526396, 110224394), (228926088, 111402562)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(228926088, 111402562), (230633407, 116657149)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW34 with D34
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW34:2' at (240356543, 81743505) with pad 'D34:2' at (241909584, 88083370) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(240356543, 81743505), (242426243, 86866194)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(240356543, 81743505), (239839882, 82960679)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(239839882, 82960679), (241909584, 88083370)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW46 with D46
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW46:2' at (247492787, 99406360) with pad 'D46:2' at (249045828, 105746225) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(247492787, 99406360), (249562487, 104529049)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(247492787, 99406360), (246976126, 100623534)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(246976126, 100623534), (249045828, 105746225)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW45 with D45
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW45:2' at (126821118, 103912878) with pad 'D45:2' at (123534243, 109552228) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(126821118, 103912878), (124751416, 109035567)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(126821118, 103912878), (125603943, 104429536)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(125603943, 104429536), (123534243, 109552228)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW13 with D13
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW13:2' at (105767915, 54314660) with pad 'D13:2' at (102481040, 59954010) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(105767915, 54314660), (103698212, 59437350)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(105767915, 54314660), (104550741, 54831318)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(104550741, 54831318), (102481040, 59954010)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW26 with D26
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW26:2' at (320366131, 68438080) with pad 'D26:2' at (321134962, 74919956) using coordinate system rotated by 345.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(320366131, 68438080), (321796105, 73774820)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(320366131, 68438080), (319704986, 69583215)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(319704986, 69583215), (321134962, 74919956)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW29 with D29
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW29:2' at (74699369, 76323528) with pad 'D29:2' at (71813881, 82178422) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(74699369, 76323528), (72992049, 81578114)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(74699369, 76323528), (73521199, 76923834)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(73521199, 76923834), (71813881, 82178422)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW32 with D32
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW32:2' at (213938600, 75228458) with pad 'D32:2' at (215045611, 81661213) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(213938600, 75228458), (215645917, 80483044)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(213938600, 75228458), (213338292, 76406626)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(213338292, 76406626), (215045611, 81661213)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW37 with D37
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW37:2' at (49483339, 89952564) with pad 'D37:2' at (46908225, 95950449) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(49483339, 89952564), (48053363, 95289301)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(49483339, 89952564), (48338199, 90613709)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(48338199, 90613709), (46908225, 95950449)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW23 with D23
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW23:2' at (98631671, 71977515) with pad 'D23:2' at (95344796, 77616865) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(98631671, 71977515), (96561969, 77100204)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(98631671, 71977515), (97414496, 72494174)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(97414496, 72494174), (95344796, 77616865)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW4 with D4
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW4:2' at (261409726, 32145287) with pad 'D4:2' at (262962767, 38485152) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(261409726, 32145287), (263479426, 37267977)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(261409726, 32145287), (260893065, 33362461)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(260893065, 33362461), (262962767, 38485152)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW35 with D35
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW35:2' at (91495407, 89640371) with pad 'D35:2' at (88208532, 95279721) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(91495407, 89640371), (89425705, 94763060)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(91495407, 89640371), (90278233, 90157029)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(90278233, 90157029), (88208532, 95279721)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW12 with D12
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW12:2' at (315435629, 50037190) with pad 'D12:2' at (316204460, 56519066) using coordinate system rotated by 345.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(315435629, 50037190), (316865603, 55373930)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(315435629, 50037190), (314774483, 51182325)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(314774483, 51182325), (316204460, 56519066)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW5 with D5
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW5:2' at (86472917, 40088275) with pad 'D5:2' at (83587429, 45943169) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(86472917, 40088275), (84765597, 45342861)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(86472917, 40088275), (85294747, 40688581)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(85294747, 40688581), (83587429, 45943169)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW21 with D21
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW21:2' at (141093625, 68587168) with pad 'D21:2' at (137806750, 74226518) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(141093625, 68587168), (139023923, 73709857)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(141093625, 68587168), (139876450, 69103827)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(139876450, 69103827), (137806750, 74226518)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW41 with D41
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW41:2' at (68812595, 94441145) with pad 'D41:2' at (65927107, 100296039) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(68812595, 94441145), (67105275, 99695731)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(68812595, 94441145), (67634425, 95041451)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(67634425, 95041451), (65927107, 100296039)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW50 with D50
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW50:2' at (269693168, 123529143) with pad 'D50:2' at (270800179, 129961898) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(269693168, 123529143), (271400485, 128783727)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(269693168, 123529143), (269092859, 124707312)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(269092859, 124707312), (270800179, 129961898)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW1 with D1
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW1:2' at (64274844, 34749893) with pad 'D1:2' at (61699731, 40747778) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(64274844, 34749893), (62844868, 40086631)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(64274844, 34749893), (63129705, 35411037)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(63129705, 35411037), (61699731, 40747778)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW52 with D52
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW52:2' at (251921093, 132193339) with pad 'D52:2' at (251894250, 138720597) using coordinate system rotated by 352.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(251921093, 132193339), (252690023, 137664567)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(251921093, 132193339), (251125318, 133249367)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(251125318, 133249367), (251894250, 138720597)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW36 with D36
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW36:2' at (282818497, 85133853) with pad 'D36:2' at (284371538, 91473718) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(282818497, 85133853), (284888197, 90256542)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(282818497, 85133853), (282301835, 86351027)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(282301835, 86351027), (284371538, 91473718)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW7 with D7
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW7:2' at (131693803, 40999187) with pad 'D7:2' at (128406928, 46638537) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(131693803, 40999187), (129624101, 46121877)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(131693803, 40999187), (130476628, 41515847)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(130476628, 41515847), (128406928, 46638537)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW2 with D2
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW2:2' at (310505127, 31636299) with pad 'D2:2' at (311273958, 38118176) using coordinate system rotated by 345.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(310505127, 31636299), (311935101, 36973040)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(310505127, 31636299), (309843982, 32781433)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(309843982, 32781433), (311273958, 38118176)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW3 with D3
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW3:2' at (112904178, 36651805) with pad 'D3:2' at (109617303, 42291155) using coordinate system rotated by 22.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(112904178, 36651805), (110834475, 41774496)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(112904178, 36651805), (111687004, 37168464)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(111687004, 37168464), (109617303, 42291155)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW20 with D20
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW20:2' at (206144711, 57730500) with pad 'D20:2' at (207251722, 64163255) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(206144711, 57730500), (207852028, 62985084)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(206144711, 57730500), (205544403, 58908669)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(205544403, 58908669), (207251722, 64163255)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW17 with D17
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW17:2' at (80586143, 58205892) with pad 'D17:2' at (77700655, 64060786) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(80586143, 58205892), (78878824, 63460478)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(80586143, 58205892), (79407972, 58806199)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(79407972, 58806199), (77700655, 64060786)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW14 with D14
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW14:2' at (268545990, 49808142) with pad 'D14:2' at (270099031, 56148007) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(268545990, 49808142), (270615690, 54930832)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(268545990, 49808142), (268029329, 51025315)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(268029329, 51025315), (270099031, 56148007)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW47 with D47
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW47:2' at (145074698, 113941868) with pad 'D47:2' at (142189210, 119796762) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(145074698, 113941868), (143367378, 119196454)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(145074698, 113941868), (143896529, 114542173)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(143896529, 114542173), (142189210, 119796762)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW24 with D24
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW24:2' at (275682253, 67470997) with pad 'D24:2' at (277235294, 73810862) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(275682253, 67470997), (277751953, 72593686)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(275682253, 67470997), (275165591, 68688171)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(275165591, 68688171), (277235294, 73810862)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW16 with D16
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW16:2' at (249756365, 54155524) with pad 'D16:2' at (251309406, 60495389) using coordinate system rotated by 338.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(249756365, 54155524), (251826065, 59278214)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(249756365, 54155524), (249239704, 55372697)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(249239704, 55372697), (251309406, 60495389)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW6 with D6
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW6:2' at (288128177, 36370801) with pad 'D6:2' at (289235188, 42803556) using coordinate system rotated by 342.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(288128177, 36370801), (289835494, 41625386)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(288128177, 36370801), (287527869, 37548969)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(287527869, 37548969), (289235188, 42803556)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW11 with D11
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW11:2' at (59344343, 53150783) with pad 'D11:2' at (56769229, 59148668) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(59344343, 53150783), (57914367, 58487521)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(59344343, 53150783), (58199203, 53811928)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(58199203, 53811928), (56769229, 59148668)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW49 with D49
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW49:2' at (104907945, 127246617) with pad 'D49:2' at (102022457, 133101511) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(104907945, 127246617), (103200625, 132501203)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(104907945, 127246617), (103729775, 127846923)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(103729775, 127846923), (102022457, 133101511)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW31 with D31
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW31:2' at (160662494, 78945932) with pad 'D31:2' at (157777006, 84800826) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(160662494, 78945932), (158955174, 84200518)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(160662494, 78945932), (159484324, 79546238)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(159484324, 79546238), (157777006, 84800826)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW19 with D19
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW19:2' at (168456382, 61447974) with pad 'D19:2' at (165570894, 67302868) using coordinate system rotated by 18.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(168456382, 61447974), (166749063, 66702560)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(168456382, 61447974), (167278212, 62048281)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(167278212, 62048281), (165570894, 67302868)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:424]: Routing SW25 with D25
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:611]: Routing pad 'SW25:2' at (54413841, 71551673) with pad 'D25:2' at (51838727, 77549558) using coordinate system rotated by 15.0 degree(s)
+[board_modifier.py:455]: Adding track segment (B.Cu): [(54413841, 71551673), (52983866, 76888410)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[board_modifier.py:455]: Adding track segment (B.Cu): [(54413841, 71551673), (53268700, 72212819)]
+[board_modifier.py:460]: Track added
+[board_modifier.py:455]: Adding track segment (B.Cu): [(53268700, 72212819), (51838727, 77549558)]
+[board_modifier.py:465]: Could not add track segment due to detected collision
+[key_placer.py:458]: Removing dangling tracks
+[key_placer.py:470]: Removing ed25b49c-24db-46b0-9478-78a457375047
+[key_placer.py:470]: Removing 0820e6ed-a370-402d-9cd9-253424c25829
+[key_placer.py:470]: Removing f6e384e9-6948-4b2a-90b1-93ebae9e1a52
+[key_placer.py:470]: Removing 4e772cf8-840d-474b-baf6-14981a0139f5
+[key_placer.py:470]: Removing 45d4ec26-abaa-4902-b049-e2012233ebff
+[key_placer.py:470]: Removing c54b4922-c0ea-4972-8c41-676ea9e5dace
+[key_placer.py:470]: Removing c9519eac-171b-413f-bc8d-7c6310fca1ff
+[key_placer.py:470]: Removing 436b5559-2cb7-42bc-bd5e-4a4875224b67
+[key_placer.py:470]: Removing 9d383a4f-a7e7-4093-94d4-2507ba2e27d2
+[key_placer.py:470]: Removing 9a2a9556-01dd-4f39-8dea-dbc9f6059bbf
+[key_placer.py:470]: Removing 944df598-e8c9-4221-8aa4-089ff3d92212
+[key_placer.py:470]: Removing f8468621-cde7-4891-a421-8d6dd2d1c00f
+[key_placer.py:470]: Removing 8575c64e-b663-4a0d-996a-e9ce0d9e0b94
+[key_placer.py:470]: Removing f8b02863-b5f1-422f-9c9c-2a0100debf31
+[key_placer.py:470]: Removing c5b98f8f-86d6-4e5e-b133-de3041a10e43
+[key_placer.py:470]: Removing a926f456-cc34-4478-96a8-abc0ea0347ba
+[key_placer.py:470]: Removing 5f830010-d6dd-4e1c-9987-8b4326f9dfba
+[key_placer.py:470]: Removing e9b196a3-a5a4-40fa-bcbe-a516c5759535
+[key_placer.py:470]: Removing b9f60819-d7e2-4a2b-8de9-2e0e2d2f095d
+[key_placer.py:470]: Removing 1003f2ef-9f1c-466d-91b6-d4e968c85411
+[key_placer.py:470]: Removing b78e9e8c-cfc9-4cb3-87b0-fc6ace73b374
+[key_placer.py:470]: Removing 7477f979-840f-437f-9790-4642bc39bb83
+[key_placer.py:470]: Removing de7901c2-cebb-4a8f-9e88-1feda15e6853
+[key_placer.py:470]: Removing 8f43171b-42a1-4b43-bdbd-75a1025e25ca
+[key_placer.py:470]: Removing dc338520-ecdd-426f-8477-4a07fbc65b9f
+[key_placer.py:470]: Removing c2895691-0ce9-4ce4-bf21-688fd1f87caf
+[key_placer.py:470]: Removing d66b0d81-d742-410e-9f7a-2caa7d8ea20b
+[key_placer.py:470]: Removing ceea0c15-4ccc-4d1a-ae52-d744723fb83e
+[key_placer.py:470]: Removing f1c93619-a6ae-48a7-9637-57f42269b15a
+[key_placer.py:470]: Removing 56ccb2d5-548c-4303-9513-04a7dd3ca4e4
+[key_placer.py:470]: Removing a7d8c278-ef2c-436f-884f-cf2314925016
+[key_placer.py:470]: Removing 06af41f2-eeea-4e42-8472-88693718cca2
+[key_placer.py:470]: Removing a11027b0-4e66-4c52-989e-70808e72b0a1
+[key_placer.py:470]: Removing 9cadf93c-c58c-4ac1-a631-464a028cb8b8
+[key_placer.py:470]: Removing 9bc14d6a-d515-4df8-ab31-b9fb507e3072
+[key_placer.py:470]: Removing 041d1b7a-b0f4-4ffb-a282-6e587fd02451
+[key_placer.py:470]: Removing 7c9ecd11-b862-40f0-b6e2-6aad00710f02
+[key_placer.py:470]: Removing b94a4d8d-acd5-4618-b0e2-83afe56aede8
+[key_placer.py:470]: Removing 05124109-ffdd-4871-a4cf-2a8ce676adf8
+[key_placer.py:470]: Removing fc84f065-aa8d-4a44-8868-13014e9d421c
+[key_placer.py:470]: Removing cd025909-068e-480f-8159-acbe72f47a73
+[key_placer.py:470]: Removing 5527aa9c-d9c8-4507-94f7-4f4a8d70d947
+[key_placer.py:470]: Removing 507ba2ec-f183-4aa7-9c47-4f2a2aec460b
+[key_placer.py:470]: Removing f3779aee-562d-44c0-a4f5-88a1b6c94a51
+[key_placer.py:470]: Removing b5a2f3fe-93f6-4683-9754-0ba5a2fef432
+[key_placer.py:470]: Removing 29cbbda4-dcd1-49c6-8e11-400cc47c1aad
+[key_placer.py:470]: Removing d3181ba1-389a-4561-b0e5-22b1c3676eb5
+[key_placer.py:470]: Removing e0592880-fd1b-4d8c-95e4-4dbb04b8dbd3
+[key_placer.py:470]: Removing 17431d4e-d5e3-480b-9159-1ba2bdd2ebe5
+[key_placer.py:470]: Removing e0a3e506-e6f0-4d88-98b8-96893bab815e
+[key_placer.py:470]: Removing b53f0fdf-82c1-4d99-b12d-7afd87a9d0c2
+[key_placer.py:470]: Removing caacc1cd-46b7-4c57-ae21-481a6aeb9883
+[key_placer.py:458]: Removing dangling tracks
