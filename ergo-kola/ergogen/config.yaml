@@ -107,49 +107,49 @@ outlines:
     - what: rectangle
       where: true
       bound: false
-      size: [kx-0.5,ky-0.5]
+      size: [kx-0.8,ky-0.8]
     - what: polygon
       bound: false
       operation: stack
 
       points:
         - ref: matrix_outer_mod
-          shift: [-0.5px,-0.5py]
+          shift: [-1.0px,-1.0py]
         - ref: matrix_pinky_mod
-          shift: [-0.5px,-0.6py]
+          shift: [-1.0px,-1.1py]
         - ref: matrix_ring_mod
-          shift: [0px,-1.2py]
+          shift: [0px,-1.7py]
         - ref: thumbs_layer_cluster
-          shift: [-0.5px,-0.5py]
+          shift: [-1.0px,-1.0py]
         - ref: thumbs_space_cluster
-          shift: [0.4px,-0.8py]
+          shift: [0.9px,-1.3py]
         - ref: matrix_inner_mod
-          shift: [0.5px,-0.5py]
+          shift: [1.0px,-1.0py]
         - ref: matrix_inner_mod
-          shift: [2.0px,-0.5py]
+          shift: [2.5px,-1.0py]
 
         - ref: matrix_inner_bottom
-          shift: [2.0px,0py]
+          shift: [2.5px,0py]
         - ref: matrix_inner_home
-          shift: [2.0px,0.7py]
+          shift: [2.5px,1.2py]
         - ref: matrix_inner_top
-          shift: [0.8px,0.2py]
+          shift: [1.3px,0.7py]
         - ref: matrix_inner_top
-          shift: [0.8px,0.5py]
+          shift: [1.3px,1.0py]
         - ref: matrix_index_top
-          shift: [0.5px,0.5py]
+          shift: [1.0px,1.0py]
         - ref: matrix_middle_top
-          shift: [0px,0.6py]
+          shift: [0px,1.1py]
         - ref: matrix_ring_top
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
         - ref: matrix_pinky_top
-          shift: [0.6px,0.6py]
+          shift: [-0.5px,1.1py]
         - ref: matrix_outer_top
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
         - ref: matrix_outer_home
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
         - ref: matrix_outer_bottom
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
 
   right_board_keys_outline:
     - what: rectangle
@@ -160,42 +160,43 @@ outlines:
       operation: stack
       points:
         - ref: mirror_matrix_outer_mod
-          shift: [-0.5px,-0.5py]
+          shift: [-1.0px,-1.0py]
         - ref: mirror_matrix_pinky_mod
-          shift: [-0.5px,-0.6py]
+          shift: [-1.0px,-1.1py]
         - ref: mirror_matrix_ring_mod
-          shift: [0px,-1.2py]
+          shift: [0px,-1.7py]
         - ref: mirror_thumbs_layer_cluster
-          shift: [-0.5px,-0.5py]
+          shift: [-1.0px,-1.0py]
         - ref: mirror_thumbs_space_cluster
-          shift: [0.4px,-0.8py]
+          shift: [0.9px,-1.3py]
         - ref: mirror_matrix_inner_mod
-          shift: [0.5px,-0.5py]
+          shift: [1.0px,-1.0py]
         - ref: mirror_matrix_inner_mod
-          shift: [2.0px,-0.5py]
+          shift: [2.5px,-1.0py]
 
         - ref: mirror_matrix_inner_bottom
-          shift: [2.0px,0py]
+          shift: [2.5px,0py]
         - ref: mirror_matrix_inner_home
-          shift: [2.0px,0.7py]
+          shift: [2.5px,1.2py]
         - ref: mirror_matrix_inner_top
-          shift: [0.8px,0.2py]
+          shift: [1.3px,0.7py]
         - ref: mirror_matrix_inner_top
-          shift: [0.8px,0.5py]
+          shift: [1.3px,1.0py]
         - ref: mirror_matrix_index_top
-          shift: [0.5px,0.5py]
+          shift: [1.0px,1.0py]
         - ref: mirror_matrix_middle_top
-          shift: [0px,0.6py]
+          shift: [0px,1.1py]
         - ref: mirror_matrix_ring_top
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
         - ref: mirror_matrix_pinky_top
-          shift: [0.6px,0.6py]
+          shift: [-0.5px,1.1py]
         - ref: mirror_matrix_outer_top
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
         - ref: mirror_matrix_outer_home
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
         - ref: mirror_matrix_outer_bottom
-          shift: [-0.5px,0.5py]
+          shift: [-1.0px,1.0py]
+
 
   left_board_outline:
     - what: polygon

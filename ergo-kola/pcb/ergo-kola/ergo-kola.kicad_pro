@@ -548,7 +548,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../cad/reference/split-kola.step",
+      "step": "../../cad/reference/ergo-kola.step",
       "svg": "",
       "vrml": "../../cad/reference/split-kola.wrl"
     },
