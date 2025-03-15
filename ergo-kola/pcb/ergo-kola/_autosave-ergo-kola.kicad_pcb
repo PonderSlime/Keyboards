@@ -68498,6 +68498,14 @@
 		(layer "Edge.Cuts")
 		(uuid "e5e68d2e-ceed-4307-a0b0-7e95796f0d5b")
 	)
+	(via
+		(at 227.48255 208.524336)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 0)
+		(uuid "6acda437-1d3c-4f49-ab25-80148f8d9e25")
+	)
 	(segment
 		(start 48.006 38.989)
 		(end 48.895 31.877)

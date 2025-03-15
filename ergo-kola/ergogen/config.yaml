@@ -44,40 +44,42 @@ points:
             column_net: L_C5
             mirror.column_net: R_C6
             stagger: -3
-            splay: 4
-            shift: [2]
+            splay: 
+            shift: 
       rows:
         mod:
-          row_net: L_R0
-          mirror.row_net: R_R0
-        bottom:
-          row_net: L_R1
-          mirror.row_net: R_R1
-        home:
-          row_net: L_R2
-          mirror.row_net: R_R2
-        top:
           row_net: L_R3
           mirror.row_net: R_R3
+        bottom:
+          row_net: L_R2
+          mirror.row_net: R_R2
+        home:
+          row_net: L_R1
+          mirror.row_net: R_R1
+        top:
+          row_net: L_R0
+          mirror.row_net: R_R0
         
     thumbs:
+      
       key:
         padding: 1ky
         spread: 1kx
       anchor:
         ref: matrix_inner_mod
         shift: [-34, -25]
+        rotate: 2
       columns:
         layer:
           key:
-            column_net: L_C3
-            mirror.column_net: R_C8
+            column_net: L_C4
+            mirror.column_net: R_C11
         space:
           key:
-            column_net: L_C4
-            mirror.column_net: R_C7
+            column_net: L_C5
+            mirror.column_net: R_C10
             width: 1kx
-            splay: 10
+            splay: 7
             shift: [2,-2]
           
       rows:
@@ -89,7 +91,7 @@ points:
   
   mirror:
     ref: matrix_pinky_home
-    distance: 12kx
+    distance: 14kx
     
 outlines:
   raw:
@@ -120,16 +122,20 @@ outlines:
         - ref: thumbs_layer_cluster
           shift: [-0.5px,-0.5py]
         - ref: thumbs_space_cluster
-          shift: [-0.0px,-0.6py]
+          shift: [0.4px,-0.8py]
         - ref: matrix_inner_mod
           shift: [0.5px,-0.5py]
+        - ref: matrix_inner_mod
+          shift: [2.0px,-0.5py]
 
         - ref: matrix_inner_bottom
-          shift: [0.7px,0py]
+          shift: [2.0px,0py]
         - ref: matrix_inner_home
-          shift: [0.6px,0.0py]
+          shift: [2.0px,0.7py]
         - ref: matrix_inner_top
-          shift: [0.5px,0.5py]
+          shift: [0.8px,0.2py]
+        - ref: matrix_inner_top
+          shift: [0.8px,0.5py]
         - ref: matrix_index_top
           shift: [0.5px,0.5py]
         - ref: matrix_middle_top
@@ -162,16 +168,20 @@ outlines:
         - ref: mirror_thumbs_layer_cluster
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbs_space_cluster
-          shift: [-0.0px,-0.6py]
+          shift: [0.4px,-0.8py]
         - ref: mirror_matrix_inner_mod
           shift: [0.5px,-0.5py]
+        - ref: mirror_matrix_inner_mod
+          shift: [2.0px,-0.5py]
 
         - ref: mirror_matrix_inner_bottom
-          shift: [0.7px,0py]
+          shift: [2.0px,0py]
         - ref: mirror_matrix_inner_home
-          shift: [0.6px,0.0py]
+          shift: [2.0px,0.7py]
         - ref: mirror_matrix_inner_top
-          shift: [0.5px,0.5py]
+          shift: [0.8px,0.2py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.8px,0.5py]
         - ref: mirror_matrix_index_top
           shift: [0.5px,0.5py]
         - ref: mirror_matrix_middle_top
@@ -201,16 +211,20 @@ outlines:
         - ref: thumbs_layer_cluster
           shift: [-0.5px,-0.5py]
         - ref: thumbs_space_cluster
-          shift: [-0.0px,-0.6py]
+          shift: [0.4px,-0.8py]
         - ref: matrix_inner_mod
           shift: [0.5px,-0.5py]
+        - ref: matrix_inner_mod
+          shift: [2.0px,-0.5py]
 
         - ref: matrix_inner_bottom
-          shift: [0.7px,0py]
+          shift: [2.0px,0py]
         - ref: matrix_inner_home
-          shift: [0.6px,0.0py]
+          shift: [2.0px,0.7py]
         - ref: matrix_inner_top
-          shift: [0.5px,0.5py]
+          shift: [0.8px,0.2py]
+        - ref: matrix_inner_top
+          shift: [0.8px,0.5py]
         - ref: matrix_index_top
           shift: [0.5px,0.5py]
         - ref: matrix_middle_top
@@ -239,16 +253,20 @@ outlines:
         - ref: mirror_thumbs_layer_cluster
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbs_space_cluster
-          shift: [-0.0px,-0.6py]
+          shift: [0.4px,-0.8py]
         - ref: mirror_matrix_inner_mod
           shift: [0.5px,-0.5py]
+        - ref: mirror_matrix_inner_mod
+          shift: [2.0px,-0.5py]
 
         - ref: mirror_matrix_inner_bottom
-          shift: [0.7px,0py]
+          shift: [2.0px,0py]
         - ref: mirror_matrix_inner_home
-          shift: [0.6px,0.0py]
+          shift: [2.0px,0.7py]
         - ref: mirror_matrix_inner_top
-          shift: [0.5px,0.5py]
+          shift: [0.8px,0.2py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.8px,0.5py]
         - ref: mirror_matrix_index_top
           shift: [0.5px,0.5py]
         - ref: mirror_matrix_middle_top

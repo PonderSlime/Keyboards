@@ -178,7 +178,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -444,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "split-kola.kicad_pro",
+    "filename": "ergo-kola.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -492,6 +494,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "L{}-VDD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "R_VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -514,6 +533,10 @@
       {
         "netclass": "R_VBUS",
         "pattern": "R_VBUS"
+      },
+      {
+        "netclass": "L{}-VDD",
+        "pattern": "L{}-VDD"
       }
     ]
   },
