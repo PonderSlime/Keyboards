@@ -1,6 +1,13 @@
 # Ergo-Kola
 
 Planck-inspired ergonomic split keyboard.
+Origonally I was going to design a different split keyboard (which i completed). However, after letting it sit for over a week, I decided that I was not yet statisfied with the final product. Some of these reasons are listed here:
+- non-symetric layout
+- Neopixels wired incorrectly
+- Insane ammout of keys
+- Not erginomic or intuitive
+
+By keeping these in mind for my second revision, I was able to complete something that I am much more satisfied with! 
 
 ## Bill of Material
 | Part | Qty | Link |
