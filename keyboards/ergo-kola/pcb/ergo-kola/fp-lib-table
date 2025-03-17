@@ -8,4 +8,5 @@
   (lib (name "Rotary_Encoder")(type "KiCad")(uri "${KIPRJMOD}/lib/Rotary_Encoder.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/SK6812MINI-E (4960)/footprints.pretty")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/lib/pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+  (lib (name "MouseBites")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/MouseBites.pretty")(options "")(descr ""))
 )
