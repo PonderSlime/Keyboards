@@ -20,6 +20,11 @@ By keeping these in mind for my second revision, I was able to complete somethin
 | Kailh MX Hotswap Sockets | 52 | [https://splitkb.com/products/kailh-hotswap-sockets](link) |
 | MX Switches (LED Compatible) | 52 | [https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492091692](link) |
 
+## Onshape Link
+[https://cad.onshape.com/documents/dbf06a8110e493f29468ba71/w/71af0cc0c8fe44a78097d876/e/75953963970660d857342981?renderMode=0&uiState=68e31b76a544192e58f7cd9d](https://cad.onshape.com/documents/dbf06a8110e493f29468ba71/w/71af0cc0c8fe44a78097d876/e/75953963970660d857342981?renderMode=0&uiState=68e31b76a544192e58f7cd9d)
+
+
+
 ![20250317_10h35m05s_grim](https://github.com/user-attachments/assets/99490410-5623-4efb-9cfd-1475e97d358f)
 ![20250317_10h34m52s_grim](https://github.com/user-attachments/assets/eab7e25c-df46-4fc1-87de-52e565bc6820)
 ![20250317_10h34m39s_grim](https://github.com/user-attachments/assets/83bf0cb1-ab24-440f-b1cd-6270b2aa2e27)
