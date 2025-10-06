@@ -19,7 +19,8 @@ By keeping these in mind for my second revision, I was able to complete somethin
 | 1N4148W SOD-123 SMD Diode | 52 | $3.85 | https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450 |
 | SK6812MINI-E Neopixel | 52 | $17.7 | https://www.digikey.com/en/products/detail/adafruit-industries-llc/4960/14302512 |
 | Kailh MX Hotswap Sockets | 52 | $19.00 | https://splitkb.com/products/kailh-hotswap-sockets |
-| MX Switches (LED Compatible) | 52 | $20.80 |https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492091692 |
+| MX Switches (LED Compatible) | 52 | $20.80 | https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492091692 |
+| Total Price | --- | $80.85 | --- |
 
 ## Onshape Link
 [https://cad.onshape.com/documents/dbf06a8110e493f29468ba71/w/71af0cc0c8fe44a78097d876/e/75953963970660d857342981?renderMode=0&uiState=68e31b76a544192e58f7cd9d](https://cad.onshape.com/documents/dbf06a8110e493f29468ba71/w/71af0cc0c8fe44a78097d876/e/75953963970660d857342981?renderMode=0&uiState=68e31b76a544192e58f7cd9d)
