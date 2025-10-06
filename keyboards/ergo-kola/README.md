@@ -1,7 +1,7 @@
 # Ergo-Kola
 
 Planck-inspired ergonomic split keyboard.
-Origonally I was going to design a different split keyboard (which i completed). However, after letting it sit for over a week, I decided that I was not yet statisfied with the final product. Some of these reasons are listed here:
+Origonally I was going to design a different split keyboard (which i completed), since I thought it would be really cool to have. However, after letting it sit for over a week, I decided that I was not yet statisfied with the final product. Some of these reasons are listed here:
 - non-symetric layout
 - Neopixels wired incorrectly
 - Insane ammout of keys
@@ -14,6 +14,7 @@ By keeping these in mind for my second revision, I was able to complete somethin
 | --- | --- | ---|
 | Raspberry Pi Pico | 2 | [https://www.digikey.com/en/products/detail/raspberry-pi/SC1631/24627136](link) |
 | PJ-320A TRRS Jack | 2 | [https://keeb.io/products/trrs-jack-3-5mm](link) |
+| 40cm TRRS Coiled Angled Cable | 1 | [https://splitkb.com/collections/keyboard-parts/products/coiled-angled-trrs-cable](link) |
 | 10uf 0805 Capacitor | 18 | [https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903](link) |
 | 1N4148W SOD-123 SMD Diode | 52 | [https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450](link) |
 | SK6812MINI-E Neopixel | 52 | [https://www.digikey.com/en/products/detail/adafruit-industries-llc/4960/14302512](link) |
