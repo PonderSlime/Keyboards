@@ -10,16 +10,16 @@ Origonally I was going to design a different split keyboard (which i completed),
 By keeping these in mind for my second revision, I was able to complete something that I am much more satisfied with! 
 
 ## Bill of Material
-| Part | Qty | Link |
-| --- | --- | ---|
-| Raspberry Pi Pico | 2 | https://www.digikey.com/en/products/detail/raspberry-pi/SC1631/24627136 |
-| PJ-320A TRRS Jack | 2 | https://keeb.io/products/trrs-jack-3-5mm |
-| 40cm TRRS Coiled Angled Cable | 1 | https://splitkb.com/collections/keyboard-parts/products/coiled-angled-trrs-cable |
-| 10uf 0805 Capacitor | 18 | https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903 |
-| 1N4148W SOD-123 SMD Diode | 52 | https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450 |
-| SK6812MINI-E Neopixel | 52 | https://www.digikey.com/en/products/detail/adafruit-industries-llc/4960/14302512 |
-| Kailh MX Hotswap Sockets | 52 | https://splitkb.com/products/kailh-hotswap-sockets |
-| MX Switches (LED Compatible) | 52 | https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492091692 |
+| Part | Qty | Price | Link |
+| --- | --- | --- | --- |
+| Raspberry Pi Pico | 2 | $10.00 | https://www.digikey.com/en/products/detail/raspberry-pi/SC1631/24627136 |
+| PJ-320A TRRS Jack | 2 | $1.00 | https://keeb.io/products/trrs-jack-3-5mm |
+| 40cm TRRS Coiled Angled Cable | 1 | $7.00 | https://splitkb.com/collections/keyboard-parts/products/coiled-angled-trrs-cable |
+| 10uf 0805 Capacitor | 18 | $1.50 | https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903 |
+| 1N4148W SOD-123 SMD Diode | 52 | $3.85 | https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450 |
+| SK6812MINI-E Neopixel | 52 | $17.7 | https://www.digikey.com/en/products/detail/adafruit-industries-llc/4960/14302512 |
+| Kailh MX Hotswap Sockets | 52 | $19.00 | https://splitkb.com/products/kailh-hotswap-sockets |
+| MX Switches (LED Compatible) | 52 | $20.80 |https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492091692 |
 
 ## Onshape Link
 [https://cad.onshape.com/documents/dbf06a8110e493f29468ba71/w/71af0cc0c8fe44a78097d876/e/75953963970660d857342981?renderMode=0&uiState=68e31b76a544192e58f7cd9d](https://cad.onshape.com/documents/dbf06a8110e493f29468ba71/w/71af0cc0c8fe44a78097d876/e/75953963970660d857342981?renderMode=0&uiState=68e31b76a544192e58f7cd9d)
